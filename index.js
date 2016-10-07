@@ -38,6 +38,7 @@ module.exports = {
 
 		// mostly just gets in the way
 		"arrow-body-style": 0,
+		"no-unused-expressions": 0,
 
 		// sometimes normal concat is cleaner
 		"prefer-template": 0,
