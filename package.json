@@ -8,7 +8,7 @@
   },
   "peerDependencies": {
     "babel-eslint": "^7.0.0",
-    "eslint-import-resolver-webpacker": "^0.6.0",
+    "eslint-import-resolver-webpack": "^0.6.0",
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-flowtype": "^2.20.0",
     "eslint-plugin-import": "^1.16.0",
