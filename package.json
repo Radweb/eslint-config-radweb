@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-radweb",
+  "version": "1.0.0",
+  "description": "Our linting stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint-import-resolver-webpacker": "^0.6.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-flowtype": "^2.20.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "keywords": [],
+  "author": "Dan Harper",
+  "license": "MIT"
+}
