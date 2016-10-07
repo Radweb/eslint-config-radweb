@@ -94,7 +94,7 @@ module.exports = {
 
 		// TODO: swap this with eslint-plugin-import 1.15.0
 		// https://github.com/benmosher/eslint-plugin-import/blob/master/CHANGELOG.md
-    // "import/no-extraneous-dependencies": [2, { "devDependencies": ["*.test.js"] }],
+		// "import/no-extraneous-dependencies": [2, { "devDependencies": ["*.test.js"] }],
 		"import/no-extraneous-dependencies": 0,
 
 		"import/imports-first": [2, null],
