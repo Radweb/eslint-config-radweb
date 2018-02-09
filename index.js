@@ -85,18 +85,11 @@ module.exports = {
 		"flowtype/semi": [2, "never"],
 		"flowtype/no-dupe-keys": 2,
 		"flowtype/delimiter-dangle": [2, "always-multiline"],
-		"babel/flow-object-type": [2, "comma"],
+		"flowtype/object-type-delimiter": [2, "comma"],
 
-		// ESLint & Babel AST mismatch, doesn't handle async funcs yet
-		// https://github.com/babel/babel-eslint/issues/316
-		// https://github.com/babel/babel-eslint/issues/350
-		"generator-star-spacing": 0,
-		"babel/generator-star-spacing": [2, { "before": false, "after": true }],
+		"generator-star-spacing": [2, { "before": false, "after": true }],
 
-		// TODO: swap this with eslint-plugin-import 1.15.0
-		// https://github.com/benmosher/eslint-plugin-import/blob/master/CHANGELOG.md
-		// "import/no-extraneous-dependencies": [2, { "devDependencies": ["*.test.js"] }],
-		"import/no-extraneous-dependencies": 0,
+		"import/no-extraneous-dependencies": [2, { "devDependencies": ["*.test.js"] }],
 
 		"import/imports-first": [2, null],
 
