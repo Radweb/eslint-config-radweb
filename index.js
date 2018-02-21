@@ -80,7 +80,7 @@ module.exports = {
 		"flowtype/space-before-type-colon": 2,
 		"flowtype/space-before-generic-bracket": 2,
 		"flowtype/union-intersection-spacing": 2,
-		"flowtype/generic-spacing": 2,
+		"flowtype/generic-spacing": 0,
 		"flowtype/valid-syntax": 2,
 		"flowtype/boolean-style": 2,
 		"flowtype/no-weak-types": [1, { "any": false }],
