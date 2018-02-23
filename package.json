@@ -1,21 +1,28 @@
 {
   "name": "@radweb/eslint-config",
-  "version": "2.0.3",
-  "description": "Our linting stuff",
+  "version": "2.0.4",
+  "description": "Radweb Javascript Linting",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "peerDependencies": {
+	"eslint": "^3.4.0",
     "babel-eslint": "^8.0.0",
     "eslint-import-resolver-webpack": "^0.8.0",
     "eslint-plugin-babel": "^4.1",
     "eslint-plugin-flowtype": "^2.43",
     "eslint-plugin-import": "^2.8",
     "eslint-plugin-jsx-a11y": "^6.0",
-    "eslint-plugin-react": "^7.6"
+    "eslint-plugin-react": "^7.6",
+    "eslint-config-airbnb": "^10.0.1"
   },
   "keywords": [],
-  "author": "Dan Harper",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/Radweb/eslint-config-radweb.git"
+  },
+  "contributors": [
+	  "Dan Harper <intouch@danharper.me>",
+	  "Wade Urry <wade@radweb.co.uk>",
+	  "Louis Capitanchik <louis@radweb.co.uk>"
+  ],
   "license": "MIT"
 }

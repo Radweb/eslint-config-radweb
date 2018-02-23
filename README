@@ -1,1 +1,16 @@
 
+# @radweb/eslint-config
+
+Extends eslint-config-airbnb
+
+Requires the following modules to also be installed:
+
+- "babel-eslint": "^8.0.0",
+- "eslint": "^3.4.0",
+- "eslint-config-airbnb": "^10.0.1",
+- "eslint-import-resolver-webpack": "^0.8.0",
+- "eslint-plugin-babel": "^4.1",
+- "eslint-plugin-flowtype": "^2.43",
+- "eslint-plugin-import": "^2.8",
+- "eslint-plugin-jsx-a11y": "^6.0",
+- "eslint-plugin-react": "^7.6"
