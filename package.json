@@ -1,6 +1,6 @@
 {
   "name": "@radweb/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Radweb Javascript Linting",
   "main": "index.js",
   "peerDependencies": {
