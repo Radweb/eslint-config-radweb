@@ -93,7 +93,7 @@ module.exports = {
 
 		"import/no-extraneous-dependencies": [2, { "devDependencies": ["*.test.js"] }],
 
-		"import/imports-first": [2, null],
+		"import/imports-first": [2, 'absolute-first'],
 
 		// no more PropTypes - Flow!
 		"react/prop-types": 0,
